@@ -1,0 +1,20 @@
+Started on 2-Apr-2018 2:40:08 PM
+Polling SCM changes on master
+Using strategy: Default
+[poll] Last Built Revision: Revision 8bf1b13d5e0d8e554f2149625a9031766aa6c7f8 (origin/master)
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/rob6809/hello-world # timeout=10
+Fetching upstream changes from https://github.com/rob6809/hello-world
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/rob6809/hello-world +refs/heads/*:refs/remotes/origin/*
+Polling for changes in
+Seen branch in repository origin/Hello_World
+Seen branch in repository origin/Jenkins_Config
+Seen branch in repository origin/master
+Seen branch in repository origin/readme-edits
+Seen 4 remote branches
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 8bf1b13d5e0d8e554f2149625a9031766aa6c7f8..85f5dfb8d8247b73c3262ff44fc1a3f729244a9b # timeout=10
+Done. Took 2.3 sec
+Changes found

@@ -1,0 +1,21 @@
+Started by user [8mha:////4FOcWpJW38ibTDhGzd7tyKdGyZ5xsdzTQwhzj3ZC610IAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9otz8/KJUAOyLWfLBAAAA[0mRobert Moore
+Building in workspace /var/lib/jenkins/workspace/Greetings_deploy_to_test
+Cloning the remote Git repository
+Cloning repository https://github.com/rob6809/hello-world.git
+ > git init /var/lib/jenkins/workspace/Greetings_deploy_to_test # timeout=10
+Fetching upstream changes from https://github.com/rob6809/hello-world.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/rob6809/hello-world.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/rob6809/hello-world.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/rob6809/hello-world.git # timeout=10
+Fetching upstream changes from https://github.com/rob6809/hello-world.git
+ > git fetch --tags --progress https://github.com/rob6809/hello-world.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4ff189d06cc26c6f24ca73f00f8b50c065796436 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4ff189d06cc26c6f24ca73f00f8b50c065796436
+Commit message: "Initial commit"
+First time build. Skipping changelog.
+Finished: SUCCESS

@@ -1,0 +1,19 @@
+Started by user [8mha:////4FOcWpJW38ibTDhGzd7tyKdGyZ5xsdzTQwhzj3ZC610IAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL9otz8/KJUAOyLWfLBAAAA[0mRobert Moore
+Building in workspace /var/lib/jenkins/workspace/Greetings_deploy_to_test
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rob6809/hello-world # timeout=10
+Fetching upstream changes from https://github.com/rob6809/hello-world
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/rob6809/hello-world +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/Hello_World
+Seen branch in repository origin/master
+Seen branch in repository origin/readme-edits
+Seen 3 remote branches
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 72fa0bb5bd122b605386777f77c6da54cac42021 (origin/Hello_World)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 72fa0bb5bd122b605386777f77c6da54cac42021
+Commit message: "Create version 5"
+ > git rev-list --no-walk b7d3a91438a370b8cd176c77b15af45abe9d9ced # timeout=10
+Finished: SUCCESS

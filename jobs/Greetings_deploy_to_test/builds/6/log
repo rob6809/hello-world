@@ -1,0 +1,24 @@
+Started by an SCM change
+Building in workspace /var/lib/jenkins/workspace/Greetings_deploy_to_test
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rob6809/hello-world # timeout=10
+Fetching upstream changes from https://github.com/rob6809/hello-world
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/rob6809/hello-world +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/Hello_World
+Seen branch in repository origin/Jenkins_Config
+Seen branch in repository origin/master
+Seen branch in repository origin/readme-edits
+Seen 4 remote branches
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 8bf1b13d5e0d8e554f2149625a9031766aa6c7f8 (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8bf1b13d5e0d8e554f2149625a9031766aa6c7f8
+Commit message: "Update README.md"
+First time build. Skipping changelog.
+[Greetings_deploy_to_test] $ /bin/sh -xe /tmp/jenkins1758175733032705096.sh
++ cp /var/lib/jenkins/workspace/Greetings_deploy_to_test/*.php /var/www/html/test/
+cp: cannot stat '/var/lib/jenkins/workspace/Greetings_deploy_to_test/*.php': No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
