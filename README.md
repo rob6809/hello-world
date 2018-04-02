@@ -24,3 +24,4 @@ I configured Jenkins for SCM polling, this has not been fully tested but seems t
 
 Wrote this, and took another copy of the Jenkins backup.
 
+The jobs directory under Master is there by mistake, and it doesn't want me to delete it. I am sure there must be a way to delete it, but I am out of time.
