@@ -15,3 +15,5 @@ Configured apache to allow for 3 simulated environments. Test, Demo, and Deploy
 Configured Jenkins to check out from GitHub, and deploy to test environment.
 Copied the config for the test deploy for use in demo, and deploy environments.
 I used cp for deploy for speed and ease of writing, in a real environment I would likely use either rsync, or scp with preshared keys.
+
+I then backed up the Jenkins config. so you would have something to work with. I was originally going to have Jenkins trigger the backup. but a permissions issue I did not have time to correct pervented this.
