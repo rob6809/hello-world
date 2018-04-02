@@ -17,3 +17,10 @@ Copied the config for the test deploy for use in demo, and deploy environments.
 I used cp for deploy for speed and ease of writing, in a real environment I would likely use either rsync, or scp with preshared keys.
 
 I then backed up the Jenkins config. so you would have something to work with. I was originally going to have Jenkins trigger the backup. but a permissions issue I did not have time to correct pervented this.
+
+My next step would have been to configure automated testing using Selenium, I did install it, but did not have time to build a test suite.
+
+I configured Jenkins for SCM polling, this has not been fully tested but seems to be working uther than failing when it sees no changes.
+
+Wrote this, and took another copy of the Jenkins backup.
+
