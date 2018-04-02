@@ -1,2 +1,2 @@
 # hello-world
-Location for code for the Greeting Microservice.
+Location for Jenkins configuration.
